@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>事業者用</title>
+    
+  </head>
+  <body>
+  
+<hr>
+  <form id="myform1">
+    <input id="myfile1" type="file" />
+  </form>
+<br>
+
+<br><br>
+<button type="button" id="OutputSaveData1" style="margin-top:10px; margin-left:30px;" onclick="saveJigyoshaParam2()">事業者情報出力</button>
+<br><br>
+<button type="button" id="LoadSaveData1" style="margin-top:10px; margin-left:30px;" onclick="LoadSaveDataFile()">事業者情報読み込み</button>
+<br><br>
+
+<hr>
+  
+  事業者名:<input type="text" id="JigyoshaMei1" size="10" /><br>
+  譲渡物:<input type="text" id="Jotobutu" size="30" /><br>
+  一件当たりの譲渡量:<input type="text" id="JotoRyo" size="30" /><br>
+
+  都道府県:<input type="text" id="TodohuKen1" size="10" /><br>
+  市町村:<input type="text" id="SityoSon1" size="10" /><br>
+
+  譲渡候補住所1:<input type="text" id="JotoKohoJusho1" size="30" /><br>
+  譲渡候補住所2:<input type="text" id="JotoKohoJusho2" size="30" /><br>
+  譲渡候補住所3:<input type="text" id="JotoKohoJusho3" size="30" /><br>
+  譲渡候補住所4:<input type="text" id="JotoKohoJusho4" size="30" /><br>  
+  譲渡候補住所5:<input type="text" id="JotoKohoJusho5" size="30" /><br>
+  
+  譲渡締め切り日:<input type="text" id="IraiShimekiriJikoku1" size="30" /><br>
+
+  <button id="resetBtn1" onclick="ResetShimekiri()">リセット</button><br>
+  
+  <br>
+  追加テキスト文<br>
+  <textarea id="AddStr1" rows="20" cols="30">
+  </textarea> 
+  <hr>
+  
+  <br>
+  <button id="outputStr1" onclick="OutputStr()">事業者情報文字列出力</button><br>  
+  <br>
+  
+  <hr>
+  
+  出力テキスト<br>
+  <textarea id="TextArea1" rows="20" cols="30">
+  </textarea>
+  
+  <hr>
+  
+  <script src="foodLosKaisho.js"></script>
+  </body>
+</html>
