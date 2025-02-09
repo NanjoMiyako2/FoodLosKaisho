@@ -262,6 +262,8 @@ function LoadGameDataFromJsonFile(JsonFileText1){
 }
 
 function saveJigyoshaParam2(){
+
+	getJigyoshaParam();
 	saveJigyoshaParam(MyJigyosha);
 }
   
