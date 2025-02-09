@@ -162,6 +162,7 @@ file.addEventListener('change', function(e) {
 
 	TextboxJigyoshaMei.value=MyJigyosha.JigyoshaMei
 	TextboxJotobutu.value=MyJigyosha.Jotobutu
+	TextboxJotoRyo.value=MyJigyosha.JotoRyo
 	
 	TextboxJotoKohoJusho1.value=MyJigyosha.JotoKohoJusho1
 	TextboxJotoKohoJusho2.value=MyJigyosha.JotoKohoJusho2
